@@ -114,7 +114,7 @@ This EDA supports the first hypothesis: location-related features are strongly a
 
 For renovation, I compared only homes with known renovation status. Homes with unknown renovation information were not forced into either group.  (yr_renovated  3848) observations->Fild->yr-renovation-> NaN
 
-The median price for non-renovated homes is about 448 thousand dollars. The median price for renovated homes is about 607.5 thousand dollars. That is approximately a 36 percent difference in median price.
+The median price for non-renovated homes is about 448 thousand dollars. The median price for renovated homes is about 607.5 thousand dollars. That is approximately a 36 percent difference in median price.(significant percent)
 
 This EDA supports the renovation hypothesis, but it does not mean every renovation is automatically profitable. The seller should compare expected price uplift with renovation cost.
 
@@ -130,7 +130,8 @@ Grade is one of the clearest value signals in the dataset.
  
  For example, Grade 7 has a median price of about 375 thousand dollars, Grade 10 is around 914 thousand dollars, and Grade 13 is about 2.98 million dollars.
 
-This supports the hypothesis that construction quality is associated with higher selling prices. For the seller, this means quality and finish level should be emphasized in pricing and marketing.
+This EDA supports the hypothesis that construction quality is associated with higher selling prices. 
+For the seller, this means quality should be emphasized in pricing and marketing.
 
 ---
 
@@ -152,7 +153,14 @@ This hypothesis is weak or not strongly supported.
 
 Based on the analysis, I recommend four actions.
 
-First, price each property based on micro-location, especially ZIP code, waterfront access, and view quality. Second, renovate selectively. Renovation is associated with higher prices, but the seller should only invest when the expected uplift is greater than the renovation cost. Third, use grade and quality as a value signal in marketing. Fourth, do not rely too heavily on timing, because seasonality appears weaker than property fundamentals.
+First, price each property based on location, especially ZIP code, waterfront access, and view quality. 
+
+Second, renovate selectively. 
+Renovation is associated with higher prices, but the seller should only invest when the expected uplift is greater than the renovation cost. 
+
+Third, use grade and quality as a value signal in marketing. 
+
+Fourth, do not rely too heavily on timing, because seasonality appears weaker than property fundamentals.
 
 ---
 
@@ -160,6 +168,6 @@ First, price each property based on micro-location, especially ZIP code, waterfr
 
 **What to say:**
 
-The final answer is that Timothy should maximize resale value by combining location-based pricing with selective property improvements. The strongest signals in the data are location, waterfront/view, renovation status, and grade. Seasonality is secondary.
+The final answer is that Timothy should maximize sale value by combining location-based pricing with selective property improvements. The strongest signals in the data are location, waterfront/view, renovation status, and grade. Seasonality is secondary.
 
 In simple terms, the seller should focus on what the property is, where it is, and how well it is presented — more than trying to time the market perfectly.
